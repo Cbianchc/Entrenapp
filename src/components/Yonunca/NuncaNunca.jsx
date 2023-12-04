@@ -75,7 +75,6 @@ if (mostrarEjer === true) {
       }
     })
   }
-  //--------------------------------------Fin de Sweat allert
     return(
         <div className="container-nunca">
              <section className="titulo-nunca">

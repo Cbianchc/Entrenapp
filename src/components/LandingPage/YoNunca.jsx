@@ -1,5 +1,5 @@
 import "../LandingPage/pagina-ppt.css";
-import { NuncaNunca } from "../Yonunca/Nunca";
+import { NuncaNunca } from "../Yonunca/NuncaNunca.jsx";
 
 export function YoNunca () {
     return(
