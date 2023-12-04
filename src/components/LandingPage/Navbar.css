@@ -1,0 +1,43 @@
+.nav-container{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    height: 50px;
+    align-items: center;
+}
+.logo{
+    height: 100%;
+}
+.logo-1{
+    max-width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+.logo-1:hover{
+    cursor: pointer;
+    border: 3px solid blueviolet;
+}
+
+.opciones{
+    height: 80%;
+    display: flex;
+
+}
+
+.opciones_item{
+    height: 100%;
+    margin-left: 10px;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 15px;
+}
+.opciones_item:hover{
+    background-color: blueviolet;
+    color: azure;
+    font-weight: 600;
+}

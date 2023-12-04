@@ -1,0 +1,9 @@
+.entrar-boton-card{
+    background-color: rgb(9, 185, 126);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.entrar-boton-card:hover{
+    background-color: blueviolet;
+}

@@ -1,0 +1,79 @@
+.timer_container{
+    background-color: #232323;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.seguir_sin_timer{
+    color: #e3e3e3;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.sin_timer{
+    padding: 8px;
+    border-radius: 15px;
+    border: 2px solid #e3e3e3;
+    background-color: #097610;
+    color: #e3e3e3;
+    text-transform: uppercase;
+}
+.sin_timer:hover{
+    background-color: #e3e3e3;
+    color: #232323;
+    border: 2px solid blueviolet;    
+}
+.timer_botones_container{
+    margin: 10px;
+    border: 8px solid rgb(135, 135, 135);
+    background-color: #e3e3e3;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+.titulo_botones{
+    font-size: 1.3rem;
+}
+.section_botones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.btn-y-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boton_timepo{
+    height: 30px;
+    width: auto;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 3px;
+}
+.boton_timepo:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.section_reloj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.timer_titulo{
+    font-size: 1rem;
+
+}
+
+.timer_reloj{
+    text-align: center;
+}
+
+
+
+

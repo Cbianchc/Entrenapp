@@ -1,0 +1,4 @@
+1. Tarjetas para cada juego
+2. Logica para el ahorcado
+3. Logica para Yo nunca
+4. Logica para quiz

@@ -1,0 +1,83 @@
+* {
+  transition: all 0.3s;
+}
+
+
+.contenedor_Quiz {
+  width: 90vw;
+  height: 97vh;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.encabezado_Quiz {
+  position: relative;
+  background: white;
+  min-width: 300px;
+  width: 70%;
+  max-width: 600px;
+  padding: 10px;
+}
+
+.categoria_Quiz {
+  opacity: 0.3;
+  text-align: left;
+  font-size: 12px;
+}
+
+.pregunta_Quiz {
+  padding: 10px;
+  text-align: center;
+}
+
+.imagen_Quiz {
+  max-height: 350px;
+  width: 100%;
+}
+
+.btn_Quiz {
+  background: rgb(245, 244, 244);
+  width: 50%;
+  max-width: 550px;
+  padding: 8px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.btn_Quiz:hover {
+  transform: scale(1.05);
+  background: rgb(222, 255, 255);
+}
+
+.numero_Quiz{
+  position: absolute;
+  opacity:0.3;
+  top: 10px;
+  right: 10px;
+}
+
+.puntaje{
+  padding:10px;
+  color:white;
+}
+
+/* Estilo para el botón correcto */
+.btn-correcto {
+  background-color: rgb(56, 248, 56); 
+  color: rgb(33, 33, 33);
+  font-weight: 600;
+}
+
+/* Estilo para el botón incorrecto */
+.btn_Quiz.incorrecto {
+  background-color: rgb(255, 92, 92); /* Fondo rojo para el botón incorrecto */
+  color: white; /* Texto en blanco para el botón incorrecto */
+}
+
+
+
+

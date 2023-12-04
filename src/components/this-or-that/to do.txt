@@ -1,0 +1,3 @@
+hacer algo parecido a lo que esta hecho en javascript
+con base de firebase
+no mucho mas por ahora
