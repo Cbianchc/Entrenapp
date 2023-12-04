@@ -1,4 +1,4 @@
-import "../Yonunca/NuncaNunca.css"
+import "../Yonunca/Nunca.css"
 import { BtnVolver } from "../btn-volver/BtnVolver.jsx"
 import { useState, useEffect } from "react"
 import Swal from "sweetalert2"
